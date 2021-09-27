@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form validation</title>
+		<meta char set="utf-8"/>
+		<link rel = "stylesheet" type = "text/css" href ="css/formcss.css"/>
+
+	</head>
+
+	<body>
+
+		<form onsubmit= "return validatedForm()"; action =login.html>
+
+			<p>
+				<label>Usename: </label>
+				<input type = "text" name= "username" placeholder ="Enter Username" id ="username" >
+				<div id = "username-error"></div>	
+			</p>
+
+
+			<p>
+				<label>Password: </label>
+				<input type ="text" name= "password" placeholder ="Enter password" id ="password" >	
+				<div id = "password-error"></div>	
+			</p>
+
+
+			<p>
+				<label>Confirm password: </label>
+				<input type ="text" name= "confirm password" placeholder ="Confirm password" id ="confirm">	
+				<div id = "confirm-error"></div>	
+			</p>
+
+
+			<p>
+				<label>Mobile Number: </label>
+				<input type = "tel" name= "mobile number" placeholder ="Enter Mobile Number" id ="mobile">	
+				<div id = "mobile-error"></div>	
+				</p>
+
+
+			<p>
+				<label>E-mail: </label>
+				<input type = "text" name= "email" placeholder ="Enter e-mail address" id ="email" >	
+				<div id = "email-error"></div>	
+			</p>
+
+			<p>
+				<button>Submit</button>
+			</p>
+		</form>
+
+
+		<script type = "text/javascript" src = "js/form.js"></script>
+	</body>
+</html>

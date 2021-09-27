@@ -1,0 +1,20 @@
+*{
+
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.container{
+	width:900px;
+	margin:0 auto;
+	background-color:#cbb99d;
+}
+
+.wrapper{
+	background-color:#e6e6e6;
+}
+.para1 p{
+	float:left;
+	width:30%;
+}
